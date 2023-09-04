@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+header{
+    background-image:url(./rest1.jpeg);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+.title{
+    background-color: rgb(228,212,190,0.4);
+}
+.banner{
+    position: absolute;
+    bottom: -30px;
+    color: #E82A60;
+    border: 5px solid white;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.title h1{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(207,161,101);
+}
+.title p{
+    color: #0cff31;
+    font-weight: 300px;
+}
+
+.card-img-top{
+    height: 200px;
+}
+.dish-name{
+    color:#B65200;
+}
+.carousel-inner{
+    height: 400px;
+    margin-bottom: 30px;
+}
+.footer-img{
+    height: 400px;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(38,36,36);
+    color: antiquewhite;
+    padding: 20px 5px;
+}
+.container{
+    background-image: url(./backroundimage.jpeg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: bottom;
+    background-size: 100% 300px;
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--css link-->
+    <link rel="stylesheet" href="./styles1.css">
+    <!--roboto font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--css link for bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images1.jpeg" type="image/x-icon">
+    <title>Restaurant-App</title>
+</head>
+<body>
+    <!--responsive nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images2.png" width="50px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Restaurant-App</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Items</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--header-->
+       <header>
+        <div class="content p-3">
+            <div class="title border rounded px-3 mb-3">
+                <h1>YOUR FAVOURITE FOOD!!!</h1>
+                <p>EAT RIGHT FOOD</p>
+            </div>
+            <img src="./food1.jpeg" width="300px" height="300px" alt="" class="rounded-circle ">
+            <!--special-block-->
+            <div class="w-50 mx-auto display-6 text-center banner">
+                <p>Eat Healthy, it is good for our health.</p>
+            </div>
+        </div>
+       </header>
+      <!--grid of cards-->
+      <div class="container main my-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 my-5">
+            <!--col-1-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card1.jpeg" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-1</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past..</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-1" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-1">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Chicken pot pie</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Fried chicken</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Chicken soup</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Chicken burger</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--col-2-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card2.jpeg" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-2</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past.</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-2" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-2">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Salads</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Shrimp</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Burger Sliders</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Mini Burgers</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--col-3-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card3.jpeg" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-3</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past.</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-3" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-3">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Butter</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Sweet</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Juice</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Coke</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--col-4-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card4.png" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-4</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past.</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-4" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-4">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Apple pie</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Pumpkin pie</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Strawberry shortcake</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Lemon cake</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--col-5-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card5.jpeg" class="w-100 card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-5</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past.</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-5" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-5">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Chicken Pestor</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Meatloaf</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Grilled Fish</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Biryani</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--col-6-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card6.jpeg" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-6</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past.</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-6" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-6">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Grilled cheese</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Tomato soup</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Mac & cheese</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Mini pizzas</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--col-7-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card7.jpeg" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-7</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past.</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-7" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-7">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Cheesecake</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Banana split</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Baklava</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Coke</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--col-8-->
+            <div class="col">
+                <!--card-->
+                <div class="card h-100">
+                    <img src="./card8.jpeg" class="w-100 card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h1 class="dish-name">Item-8</h1>
+                        <p>Comfort food is loosely defined as food that have a pretty straightforward recipe and has a nostalgia factor that will remind your guests of great meals from their past.</p>
+                        <button class="btn btn-outline-warning" data-bs-target="#item-8" data-bs-toggle="collapse">Customize</button>
+                        <div class="collapse" id="item-8">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Butter</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Sweet</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Juice</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Coke</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!--horziontal-card-->
+      <div class="card mb-3">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="./horizontal.jpeg" class="w-100" alt="">
+            </div>
+            <div class="col-sm-8 d-flex align-items-center bg-warning text-white">
+                <p class="lead">A restaurant menu with items that range from Calzones to Chinese food can overwhelm your customers with too many choices. Not only that but a restaurant with such a wide variety of menu items usually means that they don’t specialize in any of them and the quality of the entire menu will suffer as a result. To fight this, make sure your restaurant only specializes in one particular type of food. This could mean Italian food, Ice Cream, Korean BBQ, Tex-Mex, etc</p>
+            </div>
+        </div>
+      </div>
+      <!--carousel-->
+      <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1500">
+                <img src="./slide1.jpeg" class="d-block mx-auto w-50" alt="">
+            </div>
+            <div class="carousel-item " data-bs-interval="1500">
+                <img src="./slide2.jpeg" class="d-block mx-auto w-50" alt="">
+            </div>
+            <div class="carousel-item " data-bs-interval="1500">
+                <img src="./slide3.jpeg" class="d-block mx-auto w-50" alt="">
+            </div>
+            <div class="carousel-item " data-bs-interval="1500">
+                <img src="./slide4.jpeg" class="d-block mx-auto w-50" alt="">
+            </div>
+            <div class="carousel-item " data-bs-interval="1500">
+                <img src="./slide5.jpeg" class="d-block mx-auto w-50" alt="">
+            </div>
+        </div>
+      </div>
+      
+            
+    
+      <!--footer-->
+     <footer>
+        <div class="address">
+            <p class="lead">Kphb</p>
+            <p class="lead">9835273670</p>
+            <h5>Hyderabad</h5>
+            <h5>Telangana</h5>
+        </div>
+        <div>
+            <img src="./footerimage.jpeg"  alt="" class="footer-img d-none d-sm-block">
+        </div>
+        <div class="address">
+            <p class="lead">Jntu</p>
+            <p class="lead">9243285372</p>
+            <h5>Hyderabad</h5>
+            <h5>Telangana</h5>
+        </div>
+     </footer>
+
+
+
+
+
+
+    <!--javascript link for bootstrap-->
+    <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>
